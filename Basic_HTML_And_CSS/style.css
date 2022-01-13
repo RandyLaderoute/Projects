@@ -1,0 +1,7 @@
+ol {
+  text-shadow: 2px 2px #ff0000;
+}
+
+ul::after {
+  content: " \0026";
+}
