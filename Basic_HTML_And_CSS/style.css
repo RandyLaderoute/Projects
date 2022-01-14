@@ -1,7 +1,20 @@
-ol {
-  text-shadow: 2px 2px #ff0000;
+body {
+  padding: 10px;
+  background-color: darkgray;
 }
 
-ul::after {
-  content: " \0026";
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 5px;
+}
+
+img {
+  width: 100%;
+  border-radius: 20px;
+  height: 300px;
+}
+
+.photo {
+  padding: 10px;
 }
