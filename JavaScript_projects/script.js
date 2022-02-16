@@ -1,10 +1,15 @@
-window.alert("this is my alert");
+var str = new String("here is a changed color text");
+document.write(str.fontcolor('red'));
 
-document.write("this is my string".fontcolor("red"));
 
 
-var name = "Randy"
-var age = "42"
-console.log("my name is" + name + "and i am" + age + "years old");
+
+function myFunction() {
+    var text1="you clicked me!";
+    var text2=" way to go";
+    var text3= text1 + text2;
+    document.getElementById("btn").innerHTML
+    =text3;
+}
 
 
