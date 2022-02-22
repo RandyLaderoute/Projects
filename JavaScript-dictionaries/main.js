@@ -4,9 +4,9 @@ function dictionary_function(){                //creating dictionary function, a
         Name:           "Randy",                  
         Status:         "Student",          
         School:    "Academy of Learning",        
-        Location:     "British Columbia"                     
-    };            
-    delete Developer.Name;                       
+     };            
+    
+     delete Developer.Name;                       
 
     document.getElementById("Dictionary").innerHTML = Student.Name; 
 }
