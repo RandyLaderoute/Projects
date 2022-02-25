@@ -1,13 +1,13 @@
-function Ride_Function(){          
-    var Height, Can_ride;           
+function Ride_Function(){           //Define new function and name it Ride_Function
+    var Height, Can_ride;           //Create two new variables Height and Can_ride
     
     Height = document.getElementById("Height").value;
     Can_ride= (Height < 52) ? "You are too short" : "You are tall enough";
     document.getElementById("Ride").innerHTML = Can_ride + " to ride.";
 }
 
-function vAge_function(){           
-    var Age, Can_vote;           
+function vAge_function(){           //Define new function and name it vAge_function
+    var Age, Can_vote;           //Create two new variables Age and Can_vote
     
     Age = document.getElementById("Age").value;
     Can_vote= (Age < 18) ? "You are too young" : "You are old enough";
@@ -48,4 +48,3 @@ function nestFunction() {
     }
 }
 
- 
