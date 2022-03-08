@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="One Page Website" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!--navbar-->
+
+        
+        <ul class="nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Skills</a></li>
+            <li><a href="#footer">Store</a></li>
+            <li><a href="#footer">Contact</a></li>
+          </ul>
+		
+
+
+
+<!--end navbar-->
+
+<!--home section-->
+
+        <div class="home">
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dBkzHVsFHWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+        </div>
+
+        <!--end home section-->
+
+        <!--gallery-->
+
+        <div class="row">
+            <div class="column">
+              <img src="/Images/IMG_3934.PNG" onclick="openModal();currentSlide(1)" class="hover-shadow">
+            </div>
+            <div class="column">
+              <img src="/Images/IMG_3935.PNG" onclick="openModal();currentSlide(2)" class="hover-shadow">
+            </div>
+            <div class="column">
+              <img src="/Images/IMG_3936.JPG" onclick="openModal();currentSlide(3)" class="hover-shadow">
+            </div>
+            <div class="column">
+              <img src="/Images/bootstrap-logo.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+            </div>
+          </div>
+
+          <!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+  
+      <div class="mySlides">
+        <div class="numbertext">1 / 4</div>
+        <img src="/Images/IMG_3934.PNG" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">2 / 4</div>
+        <img src="/Images/IMG_3935.PNG" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">3 / 4</div>
+        <img src="/Images/IMG_3936.JPG" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">4 / 4</div>
+        <img src="/Images/bootstrap-logo.png" style="width:100%">
+      </div>
+  
+      <!-- Next/previous controls -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+      <!-- Caption text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+  
+      <!-- Thumbnail image controls -->
+      <div class="column">
+        <img class="demo" src="/Images/IMG_3934.PNG" onclick="currentSlide(1)" alt="Nature">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="/Images/IMG_3935.PNG" onclick="currentSlide(2)" alt="Snow">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="/Images/IMG_3936.JPG" onclick="currentSlide(3)" alt="Mountains">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="/Images/bootstrap-logo.png" onclick="currentSlide(4)" alt="Lights">
+      </div>
+    </div>
+  </div>
+
+  <!--end gallery-->
+
+  <!--footer-->
+
+  <div class="footer">
+
+    Tech Academy Bootcamp C/O Academy of Learning (British Columbia, Canada)
+
+
+  </div>
+
+        
+        
+        <script src="main.js"></script>
+    </body>
+</html>
